@@ -284,6 +284,8 @@
 
     var init_cb = null;
 
+    var vm = true;
+
     /**
      * Load and initialize emulator instance
      * @param {function(Error, object)} cb Callback
