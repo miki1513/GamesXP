@@ -6,7 +6,7 @@ Virtual Machine running in a Web browser.
 
 ## Web
 
-https://miki1513.github.io/GamesXP/VirtualXP.htm
+https://miki1513.github.io/GamesXP/GamesXP.htm
 
 ## Editing the GamesXP Registry
 
