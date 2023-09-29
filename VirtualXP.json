@@ -1,8 +1,8 @@
 {
-	"name": "VirtualXP",
-	"short_name": "VirtualXP",
+	"name": "GamesXP",
+	"short_name": "GXP",
 	"lang": "en-US",
-	"start_url": "https://lrusso.github.io/VirtualXP/VirtualXP.htm",
+	"start_url": "https://miki1513.github.io/GamesXP/GamesXP.htm",
 	"display": "standalone",
 	"orientation": "landscape",
 	"theme_color": "#000000",
