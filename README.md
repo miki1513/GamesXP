@@ -2,13 +2,13 @@
 
 Virtual Machine running in a Web browser.
 
-![alt screenshot](https://raw.githubusercontent.com/lrusso/VirtualXP/master/VirtualXP.png)
+
 
 ## Web
 
-https://lrusso.github.io/VirtualXP/VirtualXP.htm
+https://miki1513.github.io/GamesXP/VirtualXP.htm
 
-## Editing the VirtualXP Registry
+## Editing the GamesXP Registry
 
 Within the **VirtualXP.iso** image file you will find the following files that belongs to the System Registry.
 
@@ -29,7 +29,7 @@ Those lines will mount the VirtualXP Registry in:
 * HKEY_CURRENT_USER\OFFLINE 
 * HKEY_LOCAL_MACHINE\OFFLINE
  
-Now open the Registry editor and at the mentioned location you will find all the settings that VirtualXP is using. Modify all the things that you may need in there and after that run the following lines:
+Now open the Registry editor and at the mentioned location you will find all the settings that GamesXP is using. Modify all the things that you may need in there and after that run the following lines:
 
 ```
 reg unload HKCU\OFFLINE
@@ -47,13 +47,13 @@ After this, you must copy the modified **DEFAULT** and **SOFTWARE** files back t
 
 ## The MODELRAM.EXE file
 
-Within the **VirtualXP.iso** image you will find the **\MODELRAM.EXE** file that it is self extracting exe file created with the 7-Zip command line that automatically extracts the **Documents and Settings** folder in the RAMDisk when VirtualXP is booting. The command to create this file is the following:
+Within the **VirtualXP.iso** image you will find the **\MODELRAM.EXE** file that it is self extracting exe file created with the 7-Zip command line that automatically extracts the **Documents and Settings** folder in the RAMDisk when GamesXP is booting. The command to create this file is the following:
 
 ```
 7z a MODELRAM.EXE -mx9 -sfx "Documents and Settings"
 ```
 
-## VirtualXP is a modified version of Halfix
+## GamesXP is a modified version of Halfix
 
 https://github.com/nepx/halfix
 
